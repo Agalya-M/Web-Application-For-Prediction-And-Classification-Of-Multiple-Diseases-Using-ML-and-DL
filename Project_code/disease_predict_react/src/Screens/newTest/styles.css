@@ -1,0 +1,56 @@
+.new-test-wrapper {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.new-test-container {
+  width: 50%;
+  background-image: linear-gradient(to bottom right, #57036a, #381360);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+h2 {
+  color: white;
+}
+
+.input-container {
+  margin-bottom: 30px;
+}
+
+select {
+  width: 300px;
+  height: 25px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.button-container {
+  margin-bottom: 20px;
+}
+
+.button {
+  background-color: white;
+  color: #000;
+  padding: 0px 15px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.add-new-patient-text {
+  color: white;
+  font-size: small;
+  text-decoration: underline;
+  cursor: pointer;
+}

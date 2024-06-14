@@ -1,0 +1,46 @@
+.header-wrapper {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #57036a;
+  border-radius: 10px;
+  width: 70%;
+  margin: 10px 0px;
+}
+
+.header-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 30px;
+  height: 50px;
+}
+
+.header-title h3 {
+  color: #57036a;
+}
+
+.arrow-wrapper {
+  background-image: linear-gradient(to bottom right, #57036a, #381360);
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.arrow-icon {
+  color: white;
+}
+
+.content-wrapper {
+  padding: 10px 30px;
+}
+.symptoms-content h4 {
+  color: #381360;
+}

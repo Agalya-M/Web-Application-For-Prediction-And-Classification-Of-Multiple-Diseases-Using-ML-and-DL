@@ -1,0 +1,36 @@
+.group-input-wrapper {
+  background-image: linear-gradient(to bottom right, #57036a, #381360);
+  width: fit-content;
+  padding: 50px 80px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.group-input-wrapper input {
+  width: 250px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  padding: 5px 10px;
+}
+
+.button-wrapper {
+  margin-top: 30px;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+}
+
+.input-button {
+  margin-right: 30px;
+  background-color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  /* color: #57036a; */
+}
